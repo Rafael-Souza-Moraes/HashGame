@@ -385,7 +385,7 @@ namespace HashGame {
         }
 
         /* Menos 1 */
-        private void button1_Click(object sender, EventArgs e) {
+        private void btnMenos(object sender, EventArgs e) {
             
             Clicks();
             if (Limite <= 1)
@@ -395,7 +395,7 @@ namespace HashGame {
         }
 
         /* Mais um */
-        private void button1_Click_1(object sender, EventArgs e) {
+        private void btnMais(object sender, EventArgs e) {
             
             Clicks();
             lblLimite.Text = (Limite += 1).ToString();
