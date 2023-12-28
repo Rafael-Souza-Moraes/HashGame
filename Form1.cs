@@ -252,7 +252,7 @@ namespace HashGame {
             
             if (btn1.Text != "" && btn2.Text != "" && btn3.Text != "" && btn4.Text != "" && btn5.Text != "" && btn6.Text != "" && btn7.Text != "" && btn8.Text != "" && btn9.Text != "") {
                 
-                /* Dinamicidade... */
+                /* Dynamicity... */
                 if (!(btn1.Text != "O" && btn2.Text != "O" && btn3.Text != "O") || (btn4.Text != "O" && btn5.Text != "O" && btn6.Text != "O") || (btn7.Text != "O" && btn8.Text != "O" && btn9.Text != "O") || (btn1.Text != "O" && btn4.Text != "O" && btn7.Text != "O") || (btn2.Text != "O" && btn5.Text != "O" && btn8.Text != "O") || (btn3.Text != "O" && btn6.Text != "O" && btn9.Text != "O") || (btn1.Text != "O" && btn5.Text != "O" && btn9.Text != "O") || (btn3.Text != "O" && btn5.Text != "O" && btn7.Text != "O") || (btn1.Text != "X" && btn2.Text != "X" && btn3.Text != "X") || (btn4.Text != "X" && btn5.Text != "X" && btn6.Text != "X") || (btn7.Text != "X" && btn8.Text != "X" && btn9.Text != "X") || (btn1.Text != "X" && btn4.Text != "X" && btn7.Text != "X") || (btn2.Text != "X" && btn5.Text != "X" && btn8.Text != "X") || (btn3.Text != "X" && btn6.Text != "X" && btn9.Text != "X") || (btn1.Text != "X" && btn5.Text != "X" && btn9.Text != "X") || (btn3.Text != "X" && btn5.Text != "X" && btn7.Text != "X")) {
                     
                     MessageBox.Show("Ih! Deu empate...", "Nem um nem outro...", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
@@ -384,7 +384,7 @@ namespace HashGame {
             btnOP.Enabled = true;
         }
 
-        /* Menos 1 */
+        /* -1 */
         private void btnMenos(object sender, EventArgs e) {
             
             Clicks();
@@ -394,7 +394,7 @@ namespace HashGame {
                 lblLimite.Text = (Limite -= 1).ToString();
         }
 
-        /* Mais um */
+        /* +1 */
         private void btnMais(object sender, EventArgs e) {
             
             Clicks();
